@@ -24,9 +24,16 @@ public class Fibonacci {
         a=sc.nextInt();
         System.out.println("Output : ");
         for (int i = 1; i <= a; i++) {
-            System.out.println(angkafibo(i)+" ");
-            
+             for(int x=2;x<=a;x++){
+                b = angkafibo(i)+angkafibo(x);
+                c= b+angkafibo(i);
+            }
+      
         }
+           
+        System.out.println(c);
+            
+        
         
     }
     
