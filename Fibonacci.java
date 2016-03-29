@@ -23,7 +23,7 @@ public class Fibonacci {
         System.out.println("Input: ");
         a=sc.nextInt();
         System.out.println("Output : ");
-        for (int i = 1; i <= a; i++) {
+        for (int i = a; i <= a; i--) {
             System.out.println(angkafibo(i)+" ");
             
         }
